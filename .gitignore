@@ -1,2 +1,49 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
 venv/
-downloaded_csvs/*
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Project-specific ---
+downloaded_csvs/
+*.csv
+!keep.csv   # if you want to keep a placeholder
+
+# Logs
+*.log
+
+# --- Azure / Cloud ---
+# Azure CLI auth tokens
+.azure/
+.azureProfile.json
+
+# Azure Functions local settings
+local.settings.json
+
+# --- IDEs / Editors ---
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.bak
+*.tmp
